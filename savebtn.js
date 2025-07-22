@@ -1,7 +1,9 @@
 function saveRecord() {
     Xrm.Page.data.entity.save();
 }
+/////////////////////////////////////
 
+/////////////////////////
 function isOrderEditable() {
     debugger;
     var statusReason = Xrm.Page.getAttribute("statecode").getValue();
